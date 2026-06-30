@@ -1,0 +1,17 @@
+name: LoginWit
+version: 1.0.0
+main: com.loginwit.LoginWitPlugin
+api-version: '1.21'
+author: Angel
+
+commands:
+  login:
+    description: Iniciar sesión
+  register:
+    description: Registrar cuenta
+  loginwit:
+    description: Administración de LoginWit
+
+permissions:
+  loginwit.admin:
+    default: op
