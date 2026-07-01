@@ -1,0 +1,11 @@
+settings:
+  login-timeout-seconds: 60
+  remember-ip: false
+  lock-chat: true
+  lock-commands: true
+  lock-movement: true
+  lock-inventory: true
+  session-minutes: 30
+
+messages:
+  prefix: "&8[&bLoginWit&8] &7"
