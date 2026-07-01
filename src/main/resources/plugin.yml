@@ -1,17 +1,24 @@
 name: LoginWit
-version: 1.0.0
+version: '1.0.0'
 main: com.loginwit.LoginWitPlugin
 api-version: '1.21'
 author: Angel
+website: https://github.com/Angel1037/LoginWit
 
 commands:
   login:
-    description: Iniciar sesión
+    description: Inicia sesión.
+    usage: /login <contraseña>
+
   register:
-    description: Registrar cuenta
+    description: Registra una cuenta.
+    usage: /register <contraseña> <confirmación>
+
   loginwit:
-    description: Administración de LoginWit
+    description: Comando principal de LoginWit.
+    usage: /loginwit
 
 permissions:
   loginwit.admin:
+    description: Permite administrar LoginWit.
     default: op
