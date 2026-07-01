@@ -6,11 +6,12 @@ public final class LoginWitPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info("LoginWit ha sido habilitado.");
+        saveDefaultConfig();
+        getLogger().info("LoginWit habilitado.");
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("LoginWit ha sido deshabilitado.");
+        getLogger().info("LoginWit deshabilitado.");
     }
 }
