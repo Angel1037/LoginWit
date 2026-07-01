@@ -3,7 +3,6 @@ version: '1.0.0'
 main: com.loginwit.LoginWitPlugin
 api-version: '1.21'
 author: Angel
-website: https://github.com/Angel1037/LoginWit
 
 commands:
   login:
